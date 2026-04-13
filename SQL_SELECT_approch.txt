@@ -1,4 +1,4 @@
-// follow this approch for seclect table 
+// follow this approch for select table 
 SELECT Column(S),aggregate fun()
 FROM table_name
 WHERE condition
