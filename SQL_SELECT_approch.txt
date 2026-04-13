@@ -1,0 +1,9 @@
+// follow this approch for seclect table 
+SELECT Column(S),aggregate fun()
+FROM table_name
+WHERE condition
+GROUP BY Column(S)
+HAVING condition
+ORDER BY Column(s) ASC/DESC ;
+
+note : Column(s)  are names of the columns form table 
