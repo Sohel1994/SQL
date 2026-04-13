@@ -123,7 +123,17 @@ order by  city desc;
 
 /* ---------------------------------------------------------------------------- */
 
-/*  having clause --------*/
+/*--------having clause --------*/
+
+select city 
+from student 
+group by city
+having sum(marks) > 100
+order by  city desc;
+
+/* ---------------------------------------------------------------------------- */
+
+drop table students;
 
 
 
