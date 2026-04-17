@@ -125,7 +125,7 @@ order by  city desc;
 
 /*--------having clause --------*/
 
-select city 
+select city , count(id)
 from student 
 group by city
 having sum(marks) > 100
