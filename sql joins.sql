@@ -174,6 +174,26 @@ on a.e_id = b.m_id;
 /* ------------------------------------------------------------------------------ */
 
 
+-- UNION and UNION all 
+-- to combine the result of two or more select statements 
+-- UNION gives unique records avoid duplicate 
+-- where UNION all gives duplicates as well
+
+-- to use it 
+-- every SELECT have same no of columns , with same datatypes , 
+-- columns in every SELECT should be in same order 
+
+
+select a.m_id
+from employee as a
+UNION  -- avoid duplicates
+select b.m_id
+from employee as b;
+
+/* ------------------------------------------------------------------------------ */
+
+
+
 
  
 
